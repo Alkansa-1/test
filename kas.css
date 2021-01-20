@@ -1,0 +1,30 @@
+#overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+  }
+  
+  #popup {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    margin: 40px auto;
+  }
+
+  #close {
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    cursor: pointer;
+    color: #000;
+    padding: 4px;
+    background-color: #fff;
+  }
